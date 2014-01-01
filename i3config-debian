@@ -170,3 +170,7 @@ exec --no-startup-id wicd-client --tray
 
 # So security; much lockscreen. Wow.
 bindsym mod4+l exec i3lock
+
+# Moar Custom Shit
+for_window [class="Viewnior"] floating enable
+for_window [class="Vlc"] floating enable
